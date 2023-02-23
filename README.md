@@ -2,7 +2,7 @@
 
 The code for the papers 
 
-**Z. Wang, X. Mu, and Y. Liu, “STARS Enabled Integrated Sensing and Communications,” *IEEE Trans. Wireless Commun.*, accepted to appear.** [[Arxiv](https://arxiv.org/abs/2207.10748)]
+**Z. Wang, X. Mu, and Y. Liu, “STARS Enabled Integrated Sensing and Communications,” *IEEE Trans. Wireless Commun.*, Early Access, Feb, 2023, DOI: 10.1109/TWC.2023.3245297** [[IEEE](https://ieeexplore.ieee.org/document/10050406)] [[Arxiv](https://arxiv.org/abs/2207.10748)]
 
 **Z. Wang, X. Mu, and Y. Liu, “STARS Enabled Integrated Sensing and Communications: A CRB Optimization Perspective,” in *Proc. IEEE 96th Veh. Technol. Conf: VTC2022-Fall*, Sep. 2022, pp. 1–6.** (*Best Student Paper Awards*) [[IEEE](https://ieeexplore.ieee.org/document/10013032)]
 
@@ -35,10 +35,10 @@ If you in any way use this code for research, please cite our original articles 
   title={{STARS} Enabled Integrated Sensing and Communications},
   author={Wang, Zhaolin and Mu, Xidong and Liu, Yuanwei},
   journal={{IEEE} Trans. Wireless Commun.},
-  year={accepted to appear, 2023}
+  year={early access, Feb, 2023, doi: 10.1109/TWC.2023.3245297}
 }
 
-@inproceedings{wang2022star,
+@inproceedings{wang2022star_vtc,
   title={{STARS} enabled integrated sensing and communications: A {CRB} optimization perspective},
   author={Wang, Zhaolin and Mu, Xidong and Liu, Yuanwei},
   booktitle={Proc. IEEE 96th Veh. Technol. Conf: VTC2022-Fall},
