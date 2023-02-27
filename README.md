@@ -35,7 +35,11 @@ If you in any way use this code for research, please cite our original articles 
   title={{STARS} Enabled Integrated Sensing and Communications},
   author={Wang, Zhaolin and Mu, Xidong and Liu, Yuanwei},
   journal={{IEEE} Trans. Wireless Commun.},
-  year={early access, Feb, 2023, doi: 10.1109/TWC.2023.3245297}
+  year={2023},
+  month=feb,
+  volume={},
+  number={},
+  pages={1-1},
 }
 
 @inproceedings{wang2022star_vtc,
