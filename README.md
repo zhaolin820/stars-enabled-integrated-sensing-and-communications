@@ -46,8 +46,8 @@ If you in any way use this code for research, please cite our original articles 
   title={{STARS} enabled integrated sensing and communications: A {CRB} optimization perspective},
   author={Wang, Zhaolin and Mu, Xidong and Liu, Yuanwei},
   booktitle={Proc. IEEE 96th Veh. Technol. Conf: VTC2022-Fall},
-  pages={1--6},
   year={2022},
   month=sep,
+  pages={1--6}
 }
 ```
