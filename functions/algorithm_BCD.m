@@ -3,14 +3,14 @@ function [X, CRB_all] = algorithm_BCD(para, X, Upsilon, rho, H, h, target_para)
 %  [X, CRB_all] = algorithm_BCD(para, X, Upsilon, rho, H, h, target_para)
 %Inputs:
 %   para: structure of the initial parameters
-%   X: structure of the obtained optimization variables in previous PDD iteration
+%   X: structure of the obtained optimization variables in the previous PDD iteration
 %   Upsilon: dual variable
 %   rho: penalty factor
 %   H: BS-STARS channel
 %   h: STARS-user channels
 %   target_para: target paramaters
 %Outputs:
-%   X: structure of the obtained optimization variables in current PDD iteration
+%   X: structure of the obtained optimization variables in the current PDD iteration
 %   CRB_all: obtained CRBs in each BCD iteration
 %Date: 20/06/2022
 %Author: Zhaolin Wang
@@ -61,7 +61,7 @@ cvx_begin quiet
 
     % constraints
     [J_pp, J_pa, J_aa] = FIM(para, F, target_para.alpha, target_para.B, target_para.B_h, target_para.B_v);
-    S = [J_pp - Q, J_pa; J_pa', J_aa];
+    S = [J_pp - Q, J_pa; J_pa.', J_aa];
     S == hermitian_semidefinite(4);
 
     real(trace(Rx)) <= para.Pt;
